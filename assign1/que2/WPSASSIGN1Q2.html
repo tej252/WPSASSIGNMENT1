@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+        <meta name="description" content="images"></meta>
+        <meta name="keywords" content="nature images"></meta> 
+        <meta name="view-port" width="device-width" initial-scale="1"></meta>
+<title>  Image Rollover</title>
+</head>
+<body style="margin-left:500px;">
+
+<div >
+       
+    <script language="javascript">
+        function MouseRollover1(MyImage) {
+                MyImage.src = "/assign1/que2/image/MyPicture2.jpg";
+        }
+        function MouseOut1(MyImage) {
+                MyImage.src = "/assign1/que2/image/MyPicture1.jpg";
+        }
+    </script>
+
+<img src="/assign1/que2/image/MyPicture1.jpg" width="300px" height="200px" 
+onMouseOver="MouseRollover1(this)" 
+onMouseOut="MouseOut1(this)" />
+</div>
+<div >
+    <script language="javascript">
+        function MouseRollover2(MyImage) {
+                MyImage.src = "/assign1/que2/image/MyPicture4.jpg";
+        }
+        function MouseOut2(MyImage) {
+                MyImage.src = "/assign1/que2/image/MyPicture3.jpg";
+        }
+    </script>
+    
+    <img src="/assign1/que2/image/MyPicture3.jpg" width="300px" height="200px" 
+    onMouseOver="MouseRollover2(this)" 
+    onMouseOut="MouseOut2(this)" />
+</div>
+    <div >
+        <script language="javascript">
+            function MouseRollover3(MyImage) {
+                    MyImage.src = "/assign1/que2/image/MyPicture6.jpg";
+            }
+            function MouseOut3(MyImage) {
+                    MyImage.src = "/assign1/que2/image/MyPicture5.jpg";
+            }
+        </script>
+        
+        <img src="/assign1/que2/image/MyPicture5.jpg" width="300px" height="200px" 
+        onMouseOver="MouseRollover3(this)" 
+        onMouseOut="MouseOut3(this)" />
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+.button-g button {
+
+    border: 1px whitesmoke;
+    color: rgb(3, 44, 78); 
+    font-size: 20px;
+    padding:5px;
+    cursor: pointer; 
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 22px;
+}
+
+.button-g button:hover {
+    background-color: #085c94;
+
+}
+.dropbtn {
+    background-color: rgb(238, 243, 247);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cf5555;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display:block;
+}
